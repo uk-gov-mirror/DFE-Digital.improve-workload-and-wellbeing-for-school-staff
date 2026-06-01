@@ -18,3 +18,25 @@ title: Implementing new initiatives
     </div>
   </div>
 </div>
+
+<div class="govuk-main-wrapper">
+  <div class="dfe-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full grid grid-template-columns-mobile-1 grid-template-columns-tablet-2">
+        <%= render('/partials/tile.*',
+          title: "Free breakfast clubs programme",
+          body: "Use these resources to support you in setting up a free breakfast club ",
+          href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme",
+          colour: "green"
+        ) %>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <hr class="govuk-section-break--visible govuk-!-margin-bottom-9">
+        <%= render '/partials/feedback.*' %>
+      </div>
+    </div>
+  </div>
+</div>
