@@ -1,0 +1,34 @@
+---
+title: Free breakfast clubs programme
+---
+
+<div class="govuk-main-wrapper two-column-page content-section--green">
+  <div class="dfe-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-half">
+        <h1 class="govuk-heading-l"><%= @item[:title] %></h1>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <ul class="resource-card-group">
+          <%= render("/partials/resource_card.*",
+            title: "Deliver a free breakfast club with flexible staffing and supportive systems",
+            href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/deliver-free-breakfast-club-flexible-supportive-systems",
+            body: "Read how a school has delivered a free breakfast club with flexible staffing and establishing supportive systems",
+            tag: "Case study",
+            details: {
+              reading_time: "3 minutes",
+            }
+          ) %>
+        </ul>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <hr class="govuk-section-break--green govuk-section-break--thick">
+        <%= render '/partials/feedback.*', colour: "green" %>
+      </div>
+    </div>
+  </div>
+</div>
