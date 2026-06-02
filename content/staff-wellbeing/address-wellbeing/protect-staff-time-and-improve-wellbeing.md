@@ -34,7 +34,7 @@ colour: blue
     As a small school with just 3 members of full-time staff, we had to protect
     staff time carefully.
   </p>
-  <p>  
+  <p>
     We ensured that we had the time to give to the large number of subjects we
     are responsible for, given the small number of us.
   </p>
