@@ -1,0 +1,58 @@
+---
+title: Explore resources
+layout: /explore_resources.html.erb
+---
+
+<% content_for :topic_list do %>
+  <%= render('/partials/topic_list.*', active: "free-breakfast-clubs-programme") %>
+<% end %>
+
+<div class="explore-resource-card-group">
+  <%= render("/partials/explore_resource_card.*",
+    title: "Deliver a free breakfast club with flexible staffing and supportive systems",
+    href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/deliver-free-breakfast-club-flexible-supportive-systems",
+    tag: "Free breakfast clubs programme",
+    tag_colour: "green",
+    details: {
+      resource_type: "Case Study",
+      reading_time: "3 minutes",
+      created_by: "Hillview Primary School",
+    }
+  ) %>
+
+  <%= render("/partials/explore_resource_card.*",
+    title: "Deliver a free breakfast club by sharing staff duties and engaging staff",
+    href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/deliver-free-breakfast-club-sharing-duties-engaging-staff",
+    tag: "Free breakfast clubs programme",
+    tag_colour: "green",
+    details: {
+      resource_type: "Case Study",
+      reading_time: "4 minutes",
+      created_by: "Holbrook Primary School",
+    }
+  ) %>
+
+  <%= render("/partials/explore_resource_card.*",
+    title: "Integrate your free breakfast club with school systems to manage workload",
+    href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/integrate-free-breakfast-club-school-systems-manage-workload",
+    tag: "Free breakfast clubs programme",
+    tag_colour: "green",
+    details: {
+      resource_type: "Case Study",
+      reading_time: "4 minutes",
+      created_by: "Summerhill Academy",
+    }
+  ) %>
+
+  <%= render("/partials/explore_resource_card.*",
+    title: "Engage and empower staff to deliver a free breakfast club",
+    href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/engage-empower-staff-deliver-free-breakfast-club",
+    tag: "Free breakfast clubs programme",
+    tag_colour: "green",
+    details: {
+      resource_type: "Case Study",
+      reading_time: "4 minutes",
+      created_by: "Sunny Bank Primary School",
+    }
+  ) %>
+</div>
