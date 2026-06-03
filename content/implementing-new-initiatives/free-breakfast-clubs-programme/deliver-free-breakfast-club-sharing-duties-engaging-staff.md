@@ -29,7 +29,7 @@ type: Example
     <img src="/assets/images/bullseye.svg" alt="Bullseye icon">
   </div>
   <h2 class="govuk-heading-m">
-    Key impact and outcomes
+    Key impacts and outcomes
   </h2>
   <p>
     Sharing free breakfast club duties amongst leadership has helped other members of staff to feel supported. Staff see the club as part of the school and not an add-on.

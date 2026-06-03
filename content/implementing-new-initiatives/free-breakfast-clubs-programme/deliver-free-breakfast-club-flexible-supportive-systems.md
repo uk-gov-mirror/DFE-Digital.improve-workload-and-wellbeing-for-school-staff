@@ -29,7 +29,7 @@ colour: green
     <img src="/assets/images/bullseye.svg" alt="Bullseye icon">
   </div>
   <h2 class="govuk-heading-m">
-    Key impact and outcomes
+    Key impacts and outcomes
   </h2>
   <p>
     The breakfast club has had a positive impact on our school. Our attendance is now back to pre-pandemic levels, our punctuality has improved and the friendly, family atmosphere we hope to promote has been enhanced.
@@ -44,7 +44,7 @@ colour: green
 
 ## Background from Richard Jackson, Headteacher
 
-The free breakfast club at Hillview has brought a new dimension to our school life and numbers have grown steadily. By adjusting start and finish, we were able to use some teaching assistants that already worked at the school. They understood the benefits of the free breakfast club and were enthusiastic to make it work. Our teaching assistants really enjoy the earlier start and earlier finish.
+The free breakfast club at Hillview has brought a new dimension to our school life and numbers have grown steadily. We were able to use some teaching assistants that already worked at the school. They understood the benefits of the free breakfast club and were enthusiastic to make it work. Our teaching assistants really enjoy the earlier start and earlier finish.
 
 The new club has been extremely well received by parents. They love the more flexible school opening time and the fact it has eased congestion around school at the beginning of the day. Feedback from parents has been consistently positive.
 
