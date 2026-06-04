@@ -1,0 +1,64 @@
+---
+title: Free breakfast clubs programme
+---
+
+<div class="govuk-main-wrapper two-column-page content-section--green">
+  <div class="dfe-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-half">
+        <h1 class="govuk-heading-l"><%= @item[:title] %></h1>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <ul class="resource-card-group">
+          <%= render("/partials/resource_card.*",
+            title: "Deliver a free breakfast club with flexible staffing and supportive systems",
+            href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/deliver-free-breakfast-club-flexible-supportive-systems",
+            body: "Read how a school has delivered a free breakfast club with flexible staffing and establishing supportive systems",
+            tag: "Case study",
+            details: {
+              reading_time: "3 minutes",
+            }
+          ) %>
+
+          <%= render("/partials/resource_card.*",
+            title: "Deliver a free breakfast club by sharing staff duties and engaging staff",
+            href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/deliver-free-breakfast-club-sharing-duties-engaging-staff",
+            body: "Read how a school has delivered a free breakfast club by sharing staff duties and engaging their staff",
+            tag: "Case study",
+            details: {
+              reading_time: "4 minutes",
+            }
+          ) %>
+
+          <%= render("/partials/resource_card.*",
+            title: "Integrate your free breakfast club with school systems to manage workload",
+            href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/integrate-free-breakfast-club-school-systems-manage-workload",
+            body: "Read how a school has set up a free breakfast club by integrating the club with their existing systems to manage staff workload",
+            tag: "Case study",
+            details: {
+              reading_time: "4 minutes",
+            }
+          ) %>
+
+          <%= render("/partials/resource_card.*",
+            title: "Engage and empower staff to deliver a free breakfast club",
+            href: "#{@base_url}/implementing-new-initiatives/free-breakfast-clubs-programme/engage-empower-staff-deliver-free-breakfast-club",
+            body: "Read how a school has delivered a free breakfast club by engaging and empowering their staff",
+            tag: "Case study",
+            details: {
+              reading_time: "4 minutes",
+            }
+          ) %>
+        </ul>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <hr class="govuk-section-break--green govuk-section-break--thick">
+        <%= render '/partials/feedback.*', colour: "green" %>
+      </div>
+    </div>
+  </div>
+</div>

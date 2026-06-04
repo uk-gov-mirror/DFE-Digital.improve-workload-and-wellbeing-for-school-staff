@@ -36,15 +36,27 @@ title: Home
             colour: "blue"
           ) %>
 
-          <%= render('/partials/tile.*', title: "Staff wellbeing",
+          <%= render('/partials/tile.*', title: "Staff wellbeing toolkit",
             body: "Promote a wellbeing culture with resources made by school leaders. Sign up to the education staff wellbeing charter and find out how to support staff mental health in your school.",
             href: "#{@base_url}/staff-wellbeing",
             colour: "blue"
           ) %>
+        </div>
+      </div>
+    </div>
 
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <div class="dfe-card-container">
           <%= render('/partials/tile.*', title: "Flexible working toolkit",
             body: "Develop and implement a flexible working policy, strategic approach, and effective practice.",
             href: "#{@base_url}/flexible-working-toolkit",
+            colour: "blue"
+          ) %>
+
+          <%= render('/partials/tile.*', title: "Implementing new initiatives",
+            body: "Resources and case studies to help you implement new initiatives while minimising the impact on staff workload and wellbeing",
+            href: "#{@base_url}/implementing-new-initiatives",
             colour: "blue"
           ) %>
         </div>
